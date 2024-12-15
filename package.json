@@ -1,37 +1,17 @@
-
 {
-
-
-  "scripts": {
-    "build": "cd client && npm install && npm run build",
-    "start": "cd server && npm install && node server.js"
-  },
-  "dependencies": {
-    "@prisma/client": "^6.1.0",
-    "axios": "^1.7.9",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "http": "^0.0.1-security",
-    "path": "^0.12.7",
-    "socket.io": "^4.8.1",
-    "ws": "^8.18.0",
-
   "name": "galaxytoken",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "cd server && npm install && node server.js",
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
-    "@react-three/drei": "^9.120.4",
-    "@react-three/fiber": "^8.17.10",
-    "@react-three/postprocessing": "^2.16.3",
     "axios": "^1.7.7",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
@@ -62,5 +42,4 @@
     "typescript": "^5.7.2",
     "vite": "^5.4.10"
   }
-}
 }
